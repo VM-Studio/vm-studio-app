@@ -5,15 +5,15 @@ export default function Page() {
     <div className="min-h-screen bg-black p-8">
       <div className="max-w-4xl mx-auto space-y-8">
 
-        {/* Logo arriba a la derecha */}
-        <div className="flex justify-end">
-          <img src="/mi-logo.png" alt="Logo" className="h-20" />
-        </div>
-
-        {/* Título */}
-        <div>
-          <h1 className="text-3xl font-bold text-white">Gestión de Pagos del Servicio</h1>
-          <p className="text-gray-300 mt-1">Aquí puedes ver el estado de tus pagos y completarlos.</p>
+        {/* Título y botón en la misma línea */}
+        <div className="flex justify-between items-center">
+          <div>
+            <h1 className="text-3xl font-bold text-white">Gestión de Pagos del Servicio</h1>
+            <p className="text-gray-300 mt-1">Aquí puedes ver el estado de tus pagos y completarlos.</p>
+          </div>
+          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition">
+            Método de Pago
+          </button>
         </div>
 
         {/* Resumen del servicio */}

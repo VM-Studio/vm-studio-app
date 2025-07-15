@@ -7,17 +7,17 @@ import { Button } from '@/components/ui/button';
 export default function ServicesPage() {
   return (
     <div className="bg-black text-white py-10 px-6 sm:px-10 min-h-screen">
-        {/* LOGO arriba a la derecha */}
+      {/* LOGO arriba a la derecha */}
       <div className="absolute top-6 right-6">
         <img src="/mi-logo.png" alt="Logo" className="w-16 h-auto" />
-        {/* o con next/image si lo preferís */}
-        {/* <Image src="/logo.svg" alt="Logo" width={64} height={64} /> */}
       </div>
+
       <div className="max-w-6xl mx-auto">
-        <Card className="bg-black border border-white text-white">
-          <CardHeader>
+        <Card className="bg-black text-white">
+          <CardHeader className="mb-6">
             <CardTitle className="text-3xl font-bold">Servicios Adicionales</CardTitle>
           </CardHeader>
+
           <CardContent>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
